@@ -4,11 +4,11 @@ const About = () => {
     return ( 
         <section className="about bg-slate-800 py-16">
             <Title>About Me</Title>
-            <div className="info grid grid-cols-4 lg:grid-cols-10 text-start items-center">
-                <div className="image col-start-1 col-span-4 lg:col-start-2 lg:col-span-2">
-                    <img src="me.jpg" className="mb-12 rounded-full w-[320px] mx-auto"></img>
+            <div className="info grid grid-cols-10 text-start items-center">
+                <div className="image col-start-2 col-end-10 lg:col-start-2 lg:col-span-2">
+                    <img src="me.jpg" className="mb-12 rounded-full max-w-xs mx-auto"></img>
                 </div>
-                <div className="text col-start-1 col-span-4 lg:col-end-10 lg:col-span-5 leading-8 flex flex-col text-slate-50">
+                <div className="text col-start-2 col-end-10 lg:col-end-10 lg:col-span-5 leading-8 flex flex-col text-slate-50">
                     <p>
                         <span className="text-yellow-300"> " </span>I'm a software engineer with 3+ years of experience in Front-End development.
                         I have experience with modern web technologies, 

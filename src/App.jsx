@@ -4,11 +4,13 @@ import Layout from './components/Layout'
 import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
+import Navbar from './components/Navbar'
 
 const StyledApp = styled.div`
   background: url('02-home.avif') repeat scroll center center / cover;
   height: 100vh;
-  background-color: #858384;
+  background-color: #020617;
 
   &::before {
       content: '';
@@ -26,11 +28,13 @@ const StyledApp = styled.div`
 function App() {
 
   return (
-    <StyledApp className=''>
+    <StyledApp>
+      <Navbar />
       <Layout />
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </StyledApp>
   )
 }

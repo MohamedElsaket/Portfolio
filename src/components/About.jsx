@@ -2,7 +2,7 @@ import Title from "../ui/Title";
 
 const About = () => {
     return ( 
-        <section className="about bg-slate-800 py-16">
+        <section className="about bg-slate-950 py-16" id="about">
             <Title>About Me</Title>
             <div className="info grid grid-cols-10 text-start items-center">
                 <div className="image col-start-2 col-end-10 lg:col-start-2 lg:col-span-2">

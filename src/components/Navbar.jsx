@@ -16,16 +16,16 @@ const Navbar = () => {
 
     return ( 
         <>
-        <StyledNav className="navbar bg-slate-50 py-4 px-16 flex justify-between items-center fixed w-full z-50 shadow-slate-950">
+        <StyledNav className="navbar bg-slate-100 py-6 px-16 flex justify-between items-center fixed w-full z-50 shadow-slate-950">
             <h2>Logo</h2>
             <div>
                 <FaListUl className="md:hidden" onClick={showList} />
                 <ul className="md:flex items-center gap-8 hidden">
-                    <li className="hover:text-yellow-400 duration-100"><a href="#home">Home</a></li>
-                    <li className="hover:text-yellow-400 duration-100"><a href="#about">About</a></li>
-                    <li className="hover:text-yellow-400 duration-100"><a href="#skills">Skills</a></li>
-                    <li className="hover:text-yellow-400 duration-100"><a href="#projects">Projects</a></li>
-                    <li className="hover:text-yellow-400 duration-100"><a href="#contact">Contact</a></li>
+                    <li className="hover:text-yellow-400 duration-300"><a href="#home">Home</a></li>
+                    <li className="hover:text-yellow-400 duration-300"><a href="#about">About</a></li>
+                    <li className="hover:text-yellow-400 duration-300"><a href="#skills">Skills</a></li>
+                    <li className="hover:text-yellow-400 duration-300"><a href="#projects">Projects</a></li>
+                    <li className="hover:text-yellow-400 duration-300"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </StyledNav>

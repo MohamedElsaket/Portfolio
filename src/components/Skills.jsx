@@ -54,11 +54,11 @@ const StyledSlider = styled.div`
 
 const Skills = () => {
     return ( 
-        <div className="skills bg-[#979795] px-8 sm:px-12 md:px-20 py-16" id="skills">
+        <section className="skills bg-[#979795] px-8 sm:px-12 md:px-20 py-32" id="skills">
             <Title>Skills & Technologies</Title>
             <div className="grid grid-cols-12">
                 <div className="info py-8 col-start-1 col-span-12 lg:col-start-1 lg:col-span-4 flex flex-wrap">
-                    <ul className="text-slate-700 font-bold text-sm flex flex-wrap">
+                    <ul data-aos='fade-right' className="text-slate-700 font-bold text-sm flex flex-wrap">
                         <li className="p-4 hover:text-yellow-300 flex items-center gap-2">
                             <FaHtml5 className="text-lg" />
                             <span>Html5</span>
@@ -264,7 +264,7 @@ const Skills = () => {
                     </div>
                 </StyledContainer>
             </div>
-        </div>
+        </section>
      );
 }
  

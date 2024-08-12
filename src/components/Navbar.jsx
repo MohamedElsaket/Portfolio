@@ -16,7 +16,7 @@ const Navbar = () => {
     return ( 
         <>
         <StyledNav className="navbar bg-slate-100 py-6 px-16 flex justify-between items-center fixed w-full z-50 shadow-slate-950">
-            <h2 className="text-yellow-500 text-xl">DEV.Mohamed</h2>
+            <a href="#home" className="text-yellow-500 text-xl">DEV.Mohamed</a>
             <div>
                 <FaListUl className="md:hidden" onClick={showList} />
                 <ul className="md:flex items-center gap-8 hidden">

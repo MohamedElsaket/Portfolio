@@ -7,7 +7,7 @@ const About = () => {
             <Title>About Me</Title>
             <div className="info grid grid-cols-10 text-start items-center">
                 <div className="image col-start-2 col-end-10 lg:col-start-2 lg:col-span-2">
-                    <img data-aos='fade-right' src="me.jpg" className={`mb-12 rounded-full max-w-xs m-auto`}></img>
+                    <img data-aos='zoom-in' src="my-pic.jpg" className={`mb-12 rounded-full max-w-xs m-auto`}></img>
                 </div>
                 <div data-aos='fade-up' className="text col-start-2 col-end-10 lg:col-end-10 lg:col-span-5 leading-8 flex flex-col text-slate-50">
                     <p>
